@@ -1,0 +1,27 @@
+<!
+This is a comment
+!>
+--and so is this
+
+OPENBOX 
+RDUCKY var AS 90,var2# 
+NUMBLK var, var2, var3 AS 3# 
+HOOLA (1+1) BIGGER_THAN (1*1)! HOOP 
+SHOW "text"#
+SHOW id#
+SHOW "text",id,"text","text"# 
+
+MATCHBOARD[
+	HOLE var BIGGER_THAN var2: COLLECT var4#
+				SHOW "input:",var4,"."# 
+	HOLE var3 BIGGER_THAN var: SHOW "text1"#
+	HOLE var SMALLER_THAN var3:
+		SHOW "text2"#
+	HOLE var2 THE_SAME_AS var3: --empty statememt
+	HOLE: SHOW id# 
+]
+
+var AS 200#
+COLLECT var2#
+
+CLOSEBOX
