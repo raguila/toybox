@@ -1,0 +1,95 @@
+
+
+#query_input{
+	width: 70%;
+	height: 35%;
+	
+}
+
+header{
+	height:100px;
+	background-color:#ffffcf;
+	margin-bottom:15px;
+	border-bottom:dashed;
+	border-color:green;
+}
+
+.result{
+	float:left;
+	border-style:solid;
+	height:200px;
+	width:70%;
+	margin-top:20px;
+	padding-top:20px;
+	margin-left:15%;
+	overflow:auto;
+	margin-bottom:50px;
+}
+#runCode{
+	float:right;
+	margin-right:20%;
+	margin-top:20px;
+	width:100px;
+	height:50px;
+	background-color: green;
+}
+
+#clearCode,#resetCode{
+	float:right;
+	margin-right:2%;
+	margin-top:20px;
+	width:100px;
+	height:50px;
+
+}
+
+/*css rules for line number in textarea*/
+
+.linedwrap {
+	border: 1px solid black;
+	padding: 3px;
+	margin-left: 15%;
+	background-color: black;
+}
+
+.linedtextarea {
+	padding: 0px;
+	margin: 0px;
+}
+
+.linedtextarea textarea, .linedwrap .codelines .lineno {
+	font-size: 10pt;
+	font-family: monospace;
+	line-height: normal !important;
+}
+
+.linedtextarea textarea {
+	padding-right:0.3em;
+	padding-top:0.3em;
+	border: 0;
+}
+
+.linedwrap .lines {
+	margin-top: 0px;
+	width: 50px;
+	float: left;
+	overflow: hidden;
+	border-right: 1px solid #c0c0c0;
+	margin-right: 10px;
+}
+
+.linedwrap .codelines {
+	padding-top: 5px;
+}
+
+.linedwrap .codelines .lineno {
+	color:#AAAAAA;
+	padding-right: 0.5em;
+	padding-top: 0.0em;
+	text-align: right;
+	white-space: nowrap;
+}
+
+.linedwrap .codelines .lineselect {
+	color: red;
+}
